@@ -9,8 +9,8 @@ This app includes:
 - C# Xamarin for MacOS: <a href="https://docs.microsoft.com/en-us/xamarin/mac/">Xamarin.Mac</a>
 - Cocoa app development (using Visual Studio and Xcode).
 - using OMDB API: <a href="http://www.omdbapi.com">OMDB Api</a>
-- using ipdata Geolocation API <a href="https://ipdata.co">ipdata</a>
-- using TasteDive movies API <a href="https://tastedive.com">ipdata</a>
+- using ipdata Geolocation API <a href="https://ipdata.co">Ipdata</a>
+- using TasteDive movies API <a href="https://tastedive.com">Tastedive</a>
 - using sqlite-net NuGet package : <a href="https://github.com/praeclarum/sqlite-net">sqlite-net</a>
 - using RestSharp (Simple REST and HTTP API Client for .NET): <a href="http://restsharp.org">RestSharp</a>
 - using Newtonsoft.Json to dynamicallyx deserialize Json into object: <a href="https://www.newtonsoft.com/json">Newtonsoft.Json</a>
