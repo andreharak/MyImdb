@@ -1,37 +1,58 @@
-## Welcome to GitHub Pages
+## Welcome to MyImdb for MacOS
 
-You can use the [editor on GitHub](https://github.com/AndreaDaVinci/MyImdb/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+MyImdb is a Xamarin.MacOS app for managing your Movie preferences locally. MyImdb allows you to search for movies and add them to your local app. MyImdb uses your movie preferences to search for movie recommendations. MyImdb also generates a report of your prefered genres, and compares your ratings with IMDB ratings.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Ingredients
 
-### Markdown
+This app includes:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- C# Xamarin for MacOS: <a href="https://docs.microsoft.com/en-us/xamarin/mac/">Xamarin.Mac</a>
+- Cocoa app development (using Visual Studio and Xcode).
+- using OMDB API: <a href="http://www.omdbapi.com">OMDB Api</a>
+- using ipdata Geolocation API <a href="https://ipdata.co">ipdata</a>
+- using TasteDive movies API <a href="https://tastedive.com">ipdata</a>
+- using sqlite-net NuGet package : <a href="https://github.com/praeclarum/sqlite-net">sqlite-net</a>
+- using RestSharp (Simple REST and HTTP API Client for .NET): <a href="http://restsharp.org">RestSharp</a>
+- using Newtonsoft.Json to dynamicallyx deserialize Json into object: <a href="https://www.newtonsoft.com/json">Newtonsoft.Json</a>
+- using Microsoft CSharp NuGet package : <a href="https://dotnet.microsoft.com">dotnet</a>
 
-```markdown
-Syntax highlighted code block
+# User Interface
 
-# Header 1
-## Header 2
-### Header 3
+### Sign Up
 
-- Bulleted
-- List
+<img src="https://github.com/AndreaDaVinci/MyImdb/raw/master/MyImdbMac/Resources/gif_sign_up.gif" alt="hi" class="center"/>
 
-1. Numbered
-2. List
+### Sign In
 
-**Bold** and _Italic_ and `Code` text
+<img src="https://github.com/AndreaDaVinci/MyImdb/raw/master/MyImdbMac/Resources/gif_sign_in.gif" alt="hi" class="center"/>
 
-[Link](url) and ![Image](src)
-```
+### Add a Movie
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<img src="https://github.com/AndreaDaVinci/MyImdb/raw/master/MyImdbMac/Resources/gif_add_movie.gif" alt="hi" class="center"/>
 
-### Jekyll Themes
+### Delete a Movie
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AndreaDaVinci/MyImdb/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<img src="https://github.com/AndreaDaVinci/MyImdb/raw/master/MyImdbMac/Resources/gif_delete_movie.gif" alt="hi" class="center"/>
 
-### Support or Contact
+### Movie online page
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<img src="https://github.com/AndreaDaVinci/MyImdb/raw/master/MyImdbMac/Resources/gif_online_page.gif" alt="hi" class="center"/>
+
+### Update all Movies
+
+<img src="https://github.com/AndreaDaVinci/MyImdb/raw/master/MyImdbMac/Resources/gif_update_all.gif" alt="hi" class="center"/>
+
+### Statistics
+
+<img src="https://github.com/AndreaDaVinci/MyImdb/raw/master/MyImdbMac/Resources/gif_statistics.gif" alt="hi" class="center"/>
+
+### Movie recommendations
+
+<img src="https://github.com/AndreaDaVinci/MyImdb/raw/master/MyImdbMac/Resources/gif_recommendations.gif" alt="hi" class="center"/>
+
+# Install on MacOS
+You can download the [MacOS application](https://github.com/AndreaDaVinci/MyImdb/raw/master/Download/My%20Imdb.app.zip) that you can unarchive and then copy to your applications folder.
+
+### Note
+
+If the default OMDB api key is no longer valid, please go to your user profile, and request a new api key.
